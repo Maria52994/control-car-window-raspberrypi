@@ -24,11 +24,15 @@ This project simulates the control of a car window using a DC motor, driven by a
 - **Proximity Sensor Input**: GPIO pin 18
 - **LCD I2C**: SDA (GPIO2) and SCL (GPIO3)
 
+## Diagrams
+![Wiring Diagram](Diagram.jpg)
+
 ## How to Run the Project
 1. Connect the components according to the wiring diagram.
 2. Boot up the Raspberry Pi and install the required libraries:
-sudo apt-get install python3-rpi.gpio python3-smbus
-
-## Diagrams
-![Wiring Diagram](Diagram.jpg)
+    ```bash
+    sudo apt-get install python3-rpi.gpio python3-smbus
+3. Run the Python script:
+   ```bash
+   python3 motor_control.py
 
