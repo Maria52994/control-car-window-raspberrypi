@@ -30,5 +30,5 @@ This project simulates the control of a car window using a DC motor, driven by a
 sudo apt-get install python3-rpi.gpio python3-smbus
 
 ## Diagrams
-
+![Wiring Diagram](diagram.png)
 
